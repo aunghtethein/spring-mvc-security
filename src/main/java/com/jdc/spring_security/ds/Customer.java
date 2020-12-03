@@ -31,7 +31,6 @@ public class Customer {
     @NotBlank(message = "Address cannot be empty.")
     @Pattern(regexp = "[\\w .\\-/,]*",message = "Address Name contains illegal characters.")
     private String address;
-    public Customer(){
 
-    }
+    public Customer(){}
 }

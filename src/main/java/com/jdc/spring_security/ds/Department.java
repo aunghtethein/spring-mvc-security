@@ -29,7 +29,5 @@ public class Department {
     @Pattern(regexp = "[A-Za-z]*",message = "Country contains illegal characters.")
     private String country;
 
-    public Department(){
-
-    }
+    public Department(){}
 }
